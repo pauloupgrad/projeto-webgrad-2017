@@ -1,0 +1,173 @@
+/*
+Theme Name: Webgrad
+Theme URI: https://webgrad.com.br
+Author: Paulo Feltz Pinheiro
+Author URI: https://webgrad.com.br
+Description: Este tema foi desenvolvido especialmente para o site Webgrad Designer, criado para desenvolvimento e apresentação de portfólio, serviços e blog da empresa webgrad designer. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: portal, tutoriais, culinaria, downloads, serviços, portfólio, vídeos, games, novidades, dicas, programação, blog 
+Text Domain: Webgrad
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* HEPPERS */
+*{outline: none !important;}
+.fontzero{font-size: 0px; display: none;}
+/************ HEADER ***************/
+.bg-1{background:#444; color:#fff;}
+.bg-2{background:#069; color:#fff;}
+
+.header{background:#fff; border-top:3px solid #f2763c;solid #f2763c; padding:5px 0;}
+.navbar{border:none; background:transparent; margin:22px 0; font-size:1em;}
+.logo{margin-top:10px;}
+.navbar-default .navbar-nav > li > a{color:#666; text-transform:uppercase;}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{color:rgba(242,118,60,0.9);}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{background:rgba(242,118,60,0.9); color:#fff;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {background:rgba(242,118,60,0.9); color:#fff;}
+.dropdown-menu {background:rgba(242,118,60,0.9);}
+.dropdown-menu > li > a {color:#fff; }
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {  color: #fff;  background:rgba(0,0,0,0.5);}
+.tab-content{margin-top:2%;}
+.linkcad{float:right; margin-top:-50px; margin-right: -7%;}
+/************* SEARCH SOCIAL MEDIA ***************/
+.social-search{padding:20px 0; border-top:3px solid #eee;}
+.bannerads{margin-bottom:20px; display:block;}
+.redes{display:block; width:100%; border-bottom:3px solid #eee; overflow:hidden;margin-bottom:6px; padding:0 0 6px 0;}
+.redes a{float:left; margin-right:5px;}
+.form-pesq{width:100%;}
+.inputsearch{width:70% !important; float:left; padding:9px 0 8px 10px; border-radius:5px 0 0 5px; border:1px solid #eee;}
+.btn-pes{padding:4px 0; width:15%; font-size:1.5em; border-radius:0 5px 5px 0; border:1px solid #eee; 
+border-left:0; }
+/* LOGIN E CADASTRO */
+.minha_conta{overflow: hidden;}
+.minha_conta h3{text-transform: uppercase; color:#F3834F; font-size: 16px; font-weight: bold;}
+.minha_conta li{list-style: none;}
+.minha_conta a{background: #F3834F; width:65px !important; display: block; text-align: center; margin:12px 0 0 4px;}
+.minha_conta a{color: #fff;text-transform: uppercase; padding: 2px; float:left; border-radius:5px;}
+.minha_conta a:hover{text-decoration: none; background: #27B8FF; transition: .4s; }
+.minha_conta a:focus{text-decoration: none;}
+.minha_conta .login-username{color:#000;}
+.minha_conta .login-password{color:#000;}
+.minha_conta label{color:#333;}
+.register-link a{width: 180px !important;}
+.lost_password-link a{width: 180px !important;}
+.login-submit{color:#333; font-weight: bold;}
+/*Normas*/
+.main_normas p{color: #666; text-align: justify;}
+/************* CARROSEL ***************/
+.slider{margin-bottom:20px;}
+.slider h2{margin-bottom:5%;}
+.leia-mais{border: 1px solid #00e0d0;padding: 8px 20px;color: #fff;text-transform: uppercase;margin-top: 10px;
+display: inline-block;}
+.leia-mais:hover{text-decoration: none;color: #00e0d0;border: 1px solid #fff;}
+.carousel-indicators{bottom: 30px;}
+.carousel-indicators .active{background: #5cb85c; }
+.carousel-caption{background: rgba(0,0,0,0.5); padding:10px 20px 35px 20px; margin-bottom: 10px; width: 100%; left:0;}
+/************* ULTIMOS POSTS / MAIS VITOS ***************/
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{background-color:#f3834f; color:#fff; text-transform:uppercase;}
+.list-group-item{padding:7px 15px;}
+/************* NOTICIAS E TUTORIAIS ***************/
+.box-noticias-tutoriais{padding:20px 0 20px 0; display: block;}
+/* NOTICIAS */
+.box-noticias-tutoriais .h2noticias{background-color:#EC971F; padding:10px; font-size:1.5em; color:#fff;
+ border-bottom:3px solid #f90; border-radius:7px 7px 0 0;}
+.noticias{margin-bottom: 10px;}
+.noticias a span{text-transform:uppercase; color:#fff; background:#f3834f; padding:5px 0; margin:10px 0;
+display:block; width:40%; text-align:center; font-size: 0.8em; border-radius:5px;}
+.noticias a:hover{text-decoration:none !important;}
+.noticias a:hover span{background:#f90;}
+.noticias h3{margin:0 0 10px 0; font-size:1.5em;}
+.noticias h3 a{color:#EC971F;}
+.noticias h3 a:hover{color:#f60;}
+/* TUTORIAIS */
+.box-noticias-tutoriais .h2tutoriais{background-color:#286090; padding:10px; font-size:1.5em; color:#fff;
+ border-bottom:3px solid #069; border-radius:7px 7px 0 0;}
+.tutoriais{margin-bottom: 10px;}
+.tutoriais a span{text-transform:uppercase; color:#fff; background:#28b9ff; padding:5px 0; margin:10px 0;
+display:block; width:40%; text-align:center; font-size: 0.8em; border-radius:5px;}
+.tutoriais a:hover{text-decoration:none !important;}
+.tutoriais a:hover span{background:#069;}
+.tutoriais h3{margin:0 0 10px 0; font-size:1.5em;}
+.tutoriais h3 a{color:#286090;}
+.tutoriais h3 a:hover{color:#28b9ff;}
+
+/************* GAMES E VIDEOS ***************/
+.box-games-videos{padding:0 0 40px 0; display: block;}
+/* GAMES */
+.box-games-videos .h2games{background-color:#5cb85c; padding:10px; font-size:1.5em; color:#fff;
+ border-bottom:3px solid #186618; border-radius:7px 7px 0 0;} 
+/*.main_cat{display:block; text-align: center;}*/
+ .games p{color:#666; font-size: 1.3em;}
+ .games span a {text-transform:uppercase; color:#fff; background:#5cb85c; padding:5px 0; margin:10px 0;
+display:block; width:150px; text-align:center; font-size: 0.8em; border-radius:5px;}
+.games span a:hover{text-decoration:none !important; background:#186618;}
+.games h3{margin:0 0 8px 0; font-size:1.5em;}
+.games h3 a{color:#5cb85c;}
+.games h3 a:hover{color:#186618; text-decoration:none;}
+/* VIDEO DA SEMANA */
+.box-games-videos .h2video{background-color:#e62117; padding:10px; font-size:1.5em; color:#fff;
+ border-bottom:3px solid #a51f1a; border-radius:7px 7px 0 0;}  
+ .video p{color:#666;}
+ .video span a {text-transform:uppercase; color:#fff; background:#e62117; padding:5px 0; margin:10px 0 5px 0;
+display:block; width:20%; text-align:center; font-size: 0.8em; border-radius:5px;}
+.video span a:hover{text-decoration:none !important; background:#a51f1a;}
+.video h3{margin:0 0 10px 0; font-size:1.5em;}
+.video h3 a{color:#e62117;}
+.video h3 a:hover{color:#a51f1a; text-decoration:none;}
+/************* SERVIÇOS ***************/
+.infoserve {margin-bottom:30px; }
+.infoserve h1{font-family:'Lato',sans-serif !important; font-weight:300 !important; font-size:3em;}
+.infoserve h3{font-family:'Lato',sans-serif !important; font-weight:300 !important;}
+.servicos{padding:30px 0;text-align:center;}
+.servicos i{font-size:4em; border:2px solid #79c1e0; padding:6%; border-radius:100%; color:#79c1e0;}
+.expecifica h2{font-family:'Lato',sans-serif !important; font-weight:300 !important;}
+.expecifica a{color:#222 !important;}
+.expecifica a:hover{text-decoration:none; color:#f2763c !important;} 
+/**************** MOBILE FIRST *****************/
+/** SMART DEVICES - SMARTPHONES **/
+@media screen and (max-width: 480px){
+.inputsearch{width:300px !important;}
+.btn-pes{margin-top:0px !important;}
+/*.media-body{display:none;}*/
+}
+/*@media screen and (max-width: 768px){
+.games p{font-size:1em;}
+.games span a {text-transform:uppercase; color:#fff; background:#5cb85c; padding:5px 0; margin:10px 0;
+display:block; width:60%; text-align:center; font-size: 0.8em; border-radius:5px;}
+.games span a:hover{text-decoration:none !important; background:#186618;}
+.games h3{margin:0 0 10px 0; font-size:1.2em;}
+.games h3 a{color:#5cb85c;}
+.games h3 a:hover{color:#186618; text-decoration:none;}	
+}*/
+/************* NEWSLETTER ***************/
+.newsletter{padding:50px 0; background:rgba(0,0,0,0.6);}
+.newsletter h2{text-align:center; font-family: 'Lato', sans-serif; font-weight:300; font-size:2.5em; 
+color:#fff;}
+.newsletter h3{text-align:center; font-family: 'Lato', sans-serif; font-weight:300; font-size:2em; 
+margin-bottom:40px;color:#fff;}
+.newsletter .form-control{width:50%; background: transparent; color:#fff;}
+
+/************* FOOTER ***************/
+.rodape{background: linear-gradient(to right, #531100,#130400); padding:20px 0 0 0; text-align:center;}
+.infofooter, .menufooter, .contatofooter{margin-bottom: 10px; padding-bottom: 10px;display:block;}
+.rodape h4{color:#f3834f; font-family:'Lato', sans-serif; font-weight:300; font-size:2em;}
+.rodape h5{color:#fff; font-family:'Lato', sans-serif; font-weight:300; font-size:1.3em; text-align:justify;}
+.menufooter ul{list-style:none;  margin:0; margin-left:-30px;}
+.menufooter li a{text-align:center !important;background:rgba(255,255,255,0.1); display:block; margin-bottom:5px;
+color:rgba(255,255,255,0.8); padding:3px 0; text-transform:uppercase;}
+.menufooter li a:hover{text-decoration:none; background:rgba(255,255,255,0.6);color:#130400;}
+p{color:rgba(255,255,255,0.7);font-family:'Lato', sans-serif; font-weight:300;font-size:1.1em; text-align: justify;}
+.copy{border-top:3px solid rgba(255,255,255,0.7); padding:10px 0; text-align:center; color:rgba(255,255,255,0.7);}
+.permicao{text-align:center; color:rgba(255,255,255,0.7); font-size:0.8em;}
+.redesfooter{display:block; width:100%; border-bottom:3px solid rgba(255,255,255,0.3); overflow:hidden;
+margin-bottom:12px; padding:0 0 12px 0; margin-top:12px;}
+.redesfooter a{float:left; margin-right:5px;}
